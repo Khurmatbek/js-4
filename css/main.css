@@ -7,7 +7,7 @@ body {
     background-repeat: no-repeat;
     overflow: hidden;
 }
-.form-box {
+.form-box{
     position: absolute;
     z-index: 10;
     display: flex;
@@ -39,8 +39,6 @@ body {
     color: rgb(149, 199, 214);
     font-size:20px;
     transition:box-shadow 0.7s ease-in-out;
-    
-    
 }
 .form__input-user:hover{
     border: 2px solid rgb(210, 235, 246);
@@ -58,9 +56,7 @@ body {
     margin: 0 auto;
     font-size:20px;
     opacity:0.5 ;
-    
 }
-
 .form__user-select {
     width: 150px;
     padding: 10px 20px;
@@ -68,13 +64,11 @@ body {
     outline: none;
     border: 2px solid rgb(87, 166, 245);
     color: rgb(157, 241, 247);
-    transition:border 0.5s ease-in-out;
-    
+    transition:border 0.5s ease-in-out; 
 }
 .form__user-select:hover{
      border: 2px solid rgb(210, 235, 246);
 }
-
 .form__btn {
     padding: 10px 15px;
     border-radius:20px;
@@ -82,8 +76,7 @@ body {
     background-color: transparent;
     border: 2px solid rgb(87, 166, 245);
     color: rgb(157, 241, 247);
-    transition:border 0.5s ease-in-out;
-    
+    transition:border 0.5s ease-in-out; 
 }
 .form__btn:hover{
     border: 2px solid rgb(210, 235, 246);
