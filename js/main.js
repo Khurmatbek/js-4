@@ -7,20 +7,28 @@ elUserForm.addEventListener("submit", function (evt) {
     evt.preventDefault();
     var money = elUserInput.value;
     var selectmoney = elUserSelect.value;
-    if (selectmoney=="USD")
-        var current = money * 11569;
-    elUserResult.textContent = current;
-    console.log(elUserResult)
-    if (selectmoney=="YEVRO") {
-        var current = money * 13000;
+    var USDCURRENT = 11569;
+    var YEVROCURRENT = 13000;
+    var RUBLCURRENT = 128;
+    var current;
+    if (selectmoney === "USD")
+    {
+        current = money * USDCURRENT;
         elUserResult.textContent = current;
         console.log(elUserResult)
     }
-    if (selectmoney=="RUBL")
-     {
-        var current = money * 128;
+    if (selectmoney === "YEVRO")
+    {
+        current = money * YEVROCURRENT;
+        elUserResult.textContent= current;
+        console.log(elUserResult)
+    }
+    if (selectmoney === "RUBL")
+    {
+        current = money * RUBLCURRENT;
         elUserResult.textContent = current;
         console.log(elUserResult)
     }
+    
 }
 )
