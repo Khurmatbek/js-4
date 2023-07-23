@@ -1,0 +1,114 @@
+body {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../images/data-insights-explainableai_prev.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.form-box {
+    position: absolute;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: calc(50% - 260px );
+    left: calc(50% - 650px);
+    -webkit-box-shadow: -1px 9px 47px 14px rgba(2, 116, 204, 0.54);
+    -moz-box-shadow: -1px 9px 47px 14px rgba(2, 116, 204, 0.54);
+    box-shadow: -1px 9px 47px 14px rgba(3, 110, 192, 0.54);
+    padding: 60px 70px;
+    transition:box-shadow 0.7s ease-in-out;
+    border-radius: 30px;
+}
+.form-box:hover{
+    box-shadow: -1px 10px 50px 17px rgba(172, 214, 240, 0.54);
+}
+
+.form__input-user {
+    margin-bottom: 30px;
+    display: block;
+    width:400px;
+    outline: none;
+    padding: 12px;
+    border-radius: 12px;
+    background-color: transparent;
+    border: 2px solid rgb(87, 166, 245);
+    color: rgb(149, 199, 214);
+    font-size:20px;
+    transition:box-shadow 0.7s ease-in-out;
+    
+    
+}
+.form__input-user:hover{
+    border: 2px solid rgb(210, 235, 246);
+
+}
+.form__sec-box{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.form__input-user::placeholder{
+    color: rgb(157, 241, 247);
+    margin: 0 auto;
+    font-size:20px;
+    opacity:0.5 ;
+    
+}
+
+.form__user-select {
+    width: 150px;
+    padding: 10px 20px;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid rgb(87, 166, 245);
+    color: rgb(157, 241, 247);
+    transition:border 0.5s ease-in-out;
+    
+}
+.form__user-select:hover{
+     border: 2px solid rgb(210, 235, 246);
+}
+
+.form__btn {
+    padding: 10px 15px;
+    border-radius:20px;
+    outline: none;
+    background-color: transparent;
+    border: 2px solid rgb(87, 166, 245);
+    color: rgb(157, 241, 247);
+    transition:border 0.5s ease-in-out;
+    
+}
+.form__btn:hover{
+    border: 2px solid rgb(210, 235, 246);
+}
+.form__result-box{
+    
+    border: 2px solid rgb(87, 166, 245);
+    background-color: transparent;
+    color: white;
+    font-size: 22px;
+    border-radius: 23px;
+}
+.form__result{
+    margin-bottom: 30px;
+    display: block;
+    width:400px;
+    padding: 12px;
+    border-radius: 12px;
+    background-color: transparent;
+    border: 2px solid rgb(87, 166, 245);
+    color: rgb(149, 199, 214);
+    font-size:20px;
+    transition:border 0.5s ease-in-out;
+}
+.form__result:hover{
+    border: 2px solid rgb(210, 235, 246);
+}
+
