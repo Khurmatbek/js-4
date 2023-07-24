@@ -26,7 +26,6 @@ body {
 .form-box:hover{
     box-shadow: -1px 10px 50px 17px rgba(172, 214, 240, 0.54);
 }
-
 .form__input-user {
     margin-bottom: 30px;
     display: block;
@@ -40,9 +39,10 @@ body {
     font-size:20px;
     transition:box-shadow 0.7s ease-in-out;
 }
+
 .form__input-user:hover{
     border: 2px solid rgb(210, 235, 246);
-
+    
 }
 .form__sec-box{
     width: 100%;
@@ -67,7 +67,7 @@ body {
     transition:border 0.5s ease-in-out; 
 }
 .form__user-select:hover{
-     border: 2px solid rgb(210, 235, 246);
+    border: 2px solid rgb(210, 235, 246);
 }
 .form__btn {
     padding: 10px 15px;

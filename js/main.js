@@ -11,7 +11,9 @@ elUserForm.addEventListener("submit", function (evt) {
     var YEVROCURRENT = 13000;
     var RUBLCURRENT = 128;
     var current;
-    if (selectmoney === "USD")
+    if(money>0)
+    {
+        if (selectmoney === "USD")
     {
         current = money * USDCURRENT;
         elUserResult.textContent = current;
@@ -29,6 +31,13 @@ elUserForm.addEventListener("submit", function (evt) {
         elUserResult.textContent = current;
         console.log(elUserResult)
     }
-    
+    }
+    else{
+       elUserInput.addEventListener("invalid" , function(){
+        elUserInput.classList("invalid");
+       })
+    }
 }
+
+
 )
